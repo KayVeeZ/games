@@ -5,7 +5,7 @@ print("::A KayVeeZ Game::")
 a = np.array([[0, 1, -1],[-1 ,0 ,1],[1 ,-1 ,0]])
 loop = 'Y'
 while loop == 'Y' or loop =='y':
-    list = [0, 1, 2] # 0 = snake, 1 = water, 2 = gun
+    list = [0, 1, 2] # 0 = rock, 1 = scissors, 2 = paper
     string_list = ['Rock', 'Scissors', 'Paper']
 
     cpu_choice = choice(list) #cpu chooses a number from list
